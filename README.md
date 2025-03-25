@@ -9,6 +9,7 @@ The log folder is a folder where two txt files for a given observation night wil
               -> Raw
               -> Master 
               -> Calibrated
+              
        -> Bias
        -> Flats
        -> Darks
