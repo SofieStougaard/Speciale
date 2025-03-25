@@ -2,7 +2,7 @@ To use my pipeline to the Ole Rømer Observatory, the folder structure is import
 
 If no calibration images were taken, or if you only got bias and darks, do not worry, I have made sure you can still get calibrated light images. You just need to place either your calibration images from a different night or mine calibration images into folders called "Bias", "Flats", and "Darks" where bias, flat, and dark calibration images go respectively. This should be placed in the main folder, so NOT the folder for the observation night, and it should work just fine. The code will automatically find the folders and use those images ;)
 
-This is the link to access my calibration images: https://1drv.ms/f/c/71a3f2b934d7810b/Ernw34044CNLk2rllmCOZn4Bunk3keeu9PMSi53pgy471Q?e=407QE9
+This is the link to access my calibration images: https://1drv.ms/f/c/71a3f2b934d7810b/Ernw34044CNLk2rllmCOZn4Bunk3keeu9PMSi53pgy471Q?e=407QE9](https://aarhusuniversitet-my.sharepoint.com/:f:/g/personal/au682470_uni_au_dk/EvgZ6Q6Cd7RGvuC2gpskLpMBnigCXURy_dipFBG8fKX6pA?e=9Mux6E)
 
 The log folder is a folder where two txt files for a given observation night will be placed. The folders will be named "log_cal_"date".txt" and "log_raw_"date".txt", which will give some basic information for all the images, both before and after calibration. Some of the information is the weighted mean and the standard deviation, but also the filter, image type, and object can be viewed. Hopeful you shouldn't need to look at the logs, but they are there just in case. If you want to find the bias frame or flat frame that was used in the calibration of an image, you need to look at the header :)
 
