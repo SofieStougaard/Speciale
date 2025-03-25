@@ -18,4 +18,4 @@ The log folder is a folder where two txt files for a given observation night wil
 
 Another thing you need to remember is that the code uses the image type, which is written in the header of the fits file directly at the Ole Rømer Observatory, so when making observations you need to change the image type before taking images, you do that in the SIPS program just above where you change filters. The code will NOT work if you have forgotten to change from flats to lights when taking observations of the object you are interested in.
 
-The only thing you should need to change is the path and date, which is placed just after loading the packege needed, make sure you have downloaded all the packages. Good luck ;)
+The only thing you should need to change is the path and date (and maybe the binsize of the after image, the calibrated image will fill some space, so I would recommend you choose a binsize of 3), which is placed just after loading the packege needed, make sure you have downloaded all the packages. Good luck ;)
