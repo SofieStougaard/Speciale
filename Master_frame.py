@@ -37,7 +37,7 @@ raw_images = ccdp.ImageFileCollection(raw_path)
 master_path = date / "Masters"
 master_path.mkdir(parents=True, exist_ok=True)
 
-cal_path = date/"Calibrated/No_bin"
+cal_path = date/"Calibrated"
 cal_path.mkdir(parents=True, exist_ok=True)
 
 log_path = path / "log"
