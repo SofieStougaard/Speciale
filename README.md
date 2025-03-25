@@ -4,15 +4,14 @@ If no calibration images were taken, or if you only got bias and darks, do not w
 
 The log folder is a folder where two txt files for a given observation night will be placed. The folders will be named "log_cal_"date".txt" and "log_raw_"date".txt", which will give some basic information for all the images, both before and after calibration. Some of the information is the weighted mean and the standard deviation, but also the filter, image type, and object can be viewed. Hopeful you shouldn't need to look at the logs, but they are there just in case. If you want to find the bias frame or flat frame that was used in the calibration of an image, you need to look at the header :)
 
--> Observations 
-      -> Observation night (e.g. 2025-02-16) 
-              -> Raw
-              -> Master 
-              -> Calibrated
-              
-       -> Bias
-       -> Flats
-       -> Darks
-       -> Log
+      -> Observations 
+            -> Observation night (e.g. 2025-02-16)
+                    -> Raw
+                    -> Master 
+                    -> Calibrated
+             -> Bias
+             -> Flats
+             -> Darks
+             -> Log
 
 Another thing you need to remember is that the code uses the image type, which is written in the header of the fits file directly at the Ole Rømer Observatory, so when making observations you need to change the image type before taking images, you do that in the SIPS program just above where you change filters. The code will NOT work if you have forgotten to change from flats to lights when taking observations of the object you are interested in.
